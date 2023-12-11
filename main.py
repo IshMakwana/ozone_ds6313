@@ -47,7 +47,7 @@ std_df = mtb.standardize(df[columns])
 
 # # Initialize the app
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
-
+server = app.server
 
 # %%
 # Data Description
